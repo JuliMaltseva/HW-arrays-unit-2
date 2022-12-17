@@ -41,7 +41,9 @@ public class Main {
         char[] reverseFullName = { 'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
         String a = String.valueOf(reverseFullName);
         System.out.println(a);
-
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
+            System.out.print(reverseFullName[i]);
+        }
     }
 
     public static int[] generateRandomArray() {
